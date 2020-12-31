@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>테넷</title>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <style>
+        .ui-block-a, .ui-block-b{font-size: 12px; padding-top: 7px;}
+        .ui-block-a img,.ui-block-b img{float:left; padding-right: 5px; padding-top:5px;}
+        .title{color: blue; font-size: 13px;}
+        .role span{color: red;}
+    </style>
+</head>
+<body>
+    <div data-role="page"> 
+        <!----header -------------------------------------------->
+        <div data-role="header">
+            <a href="index.html" rel="external" data-icon="home" data-iconpos="notext">Home</a>
+           <h1>영화소개</h1>
+           <a href="index.html" rel="external" data-icon="back" data-iconpos="notext">Menu</a>
+        </div>
+        <!----header---->
+        <!--navigation--------------------------------------------->
+        <div data-role = "navbar">
+            <ul>
+                <li><a href="introduce01.html" rel="external" >줄거리</a></li>
+                <li><a class="ui-btn-active"  href="introduce02.html" rel="external" >등장인물</a></li>
+                <li><a href="introduce03.html" rel="external" >평점</a></li>
+            </ul>
+        </div>
+        <!--navigaiton-->
+        <!----content--------------------------------------------->
+        <div data-role="ui-content">
+            <div class="ui-grid-a">
+                <div class="ui-block-a">
+                    <img src="img/img1.jpg"  alt="등장인물1">
+                    <div class="title">전지현</div>            
+                    <div class="role"> <span>주연</span> | 안옥윤 역</div>
+                    <p>
+                        푸른 바다의 전설,2016<br>
+                        암살,2015
+                    </p>
+                </div>        
+                <div class="ui-block-b">
+                    <img src="img/img2.jpg"  alt="등장인물2">
+                    <div class="title">이정재</div>            
+                    <div class="role"><span>주연</span> | 염석진 역</div>
+                    <p>
+                        헌트(가제),2021<br>
+                        다만 악에서 구하소서 파이널컷,2020
+                    </p>
+                </div>
+                <div class="ui-block-a">
+                    <img src="img/img3.jpg"  alt="등장인물3">
+                    <div class="title">하정우</div>            
+                    <div class="role"><span>주연</span> | 하와이 피스톨 역 </div>
+                    <p>
+                        보스턴 1947,2020<br>
+                        피랍,2020
+                    </p>
+                </div>
+                <div class="ui-block-b">
+                    <img src="img/img4.jpg"  alt="등장인물4">
+                    <div class="title">오달수</div>            
+                    <div class="role"><span>조연</span> | 영감 역</div>
+                    <p>
+                        요시찰,2019<br>
+                        이웃사촌,2017
+                    </p>
+                </div>
+                <div class="ui-block-a">
+                    <img src="img/img5.jpg"  alt="등장인물5">
+                    <div class="title">조진웅</div>            
+                    <div class="role"><span>조연</span> | 속사포 역</div>
+                    <p>
+                        대외비: 권력의 탄생(가제),2020<br>
+                        경관의 피(가제),2020
+                    </p>
+                </div>
+                <div class="ui-block-b">
+                    <img src="img/img6.jpg"  alt="등장인물6">
+                    <div class="title">이경영</div>            
+                    <div class="role"><span>조연</span> | 강인국 역</div>
+                    <p>
+                        백두산,2019<br>
+                        블랙머니,2019
+                    </p>
+                </div>
+                <div class="ui-block-a">
+                    <img src="img/img7.jpg"  alt="등장인물7">
+                    <div class="title">최덕문</div>            
+                    <div class="role"><span>조연</span> | 황덕삼 역</div>
+                    <p>
+                        리미트,2020<br>
+                        애비규환,2020
+                    </p>
+                </div>
+                <div class="ui-block-b">
+                    <img src="img/img8.jpg"  alt="등장인물8">
+                    <div class="title">박병은</div>            
+                    <div class="role"><span>조연</span> | 카와구치 역</div>
+                    <p>
+                        시민 덕희(가제),2020<br>
+                        서복,2020
+                    </p>
+                </div>
+            </div>                  
+        </div>
+        
+        <!--- content --->
+        <!--footer------------------------------------------------->
+            <ul data-role="listview" data-inset="true">  
+            </ul>
+        <div data-role="footer">
+            <h3>CGV&copy;All right reserved.</h3>
+        </div>
+        <!---footer-->
+    </div>
+</body>
+</html>
